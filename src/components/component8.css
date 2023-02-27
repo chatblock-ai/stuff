@@ -1,0 +1,16 @@
+.component8-container {
+  display: flex;
+  position: relative;
+}
+.component8-image {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .component8-image {
+    width: 40px;
+    margin-right: var(--dl-space-space-unit);
+    padding-right: 0px;
+  }
+}

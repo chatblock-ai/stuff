@@ -1,0 +1,13 @@
+.component12-container {
+  display: flex;
+  position: relative;
+}
+.component12-image {
+  width: 40px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .component12-image {
+    width: 40px;
+  }
+}

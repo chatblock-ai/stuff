@@ -1,0 +1,15 @@
+.component11-container {
+  display: flex;
+  position: relative;
+}
+.component11-image {
+  width: 40px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .component11-image {
+    width: 40px;
+    margin-right: var(--dl-space-space-unit);
+  }
+}

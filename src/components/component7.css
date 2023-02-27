@@ -1,0 +1,19 @@
+.component7-container {
+  display: flex;
+  position: relative;
+}
+.component7-image {
+  width: 190px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .component7-image {
+    width: 190px;
+  }
+}
+@media(max-width: 479px) {
+  .component7-image {
+    width: 21%;
+  }
+}
